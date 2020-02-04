@@ -8,3 +8,4 @@ print('Hello' + ' ' + name + ' ' + last_name + ' ' + 'you are a' + ' ' + species
 
 birth_year = input('In what year were you born?     ')
 
+age = 2020 - int(birth_year)
