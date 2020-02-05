@@ -1,4 +1,4 @@
-name = 'Lana'
+name = input('Hello, what is your first name?     '
 last_name = input('What is your last name?    ')
 species = input('What is your species?        ')
 eye_colour = input('What is your eye colour?       ')
@@ -9,4 +9,4 @@ print('Hello' + ' ' + name + ' ' + last_name + ' ' + 'you are a' + ' ' + species
 birth_year = input('In what year were you born?     ')
 
 age = 2020 - int(birth_year)
-print(age)
+print('That makes you' + ' ' + age)
